@@ -1,0 +1,106 @@
+body.register-page{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI',sans-serif;
+    background:white;
+    min-height:100vh;
+}
+
+
+/* Registration Box */
+.register-container{
+    width:450px;
+    background:#ffffff;
+    padding:35px;
+    margin:50px auto;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+
+.logo img{
+    border-radius:50%;
+}
+
+
+h1{
+    font-size:22px;
+    color:#123c8c;
+    margin:15px 0;
+}
+
+
+h2{
+    color:#555;
+    font-size:20px;
+}
+
+
+input,select{
+    width:100%;
+    padding:13px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+
+input:focus,select:focus{
+    border-color:#2563eb;
+    outline:none;
+}
+
+
+button{
+    width:100%;
+    padding:14px;
+    margin-top:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+}
+
+
+button:hover{
+    background:#123c8c;
+}
+
+
+a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:bold;
+}
+.password-box{
+    position:relative;
+    width:100%;
+}
+
+.password-box input{
+    width:100%;
+    padding-right:50px;
+    box-sizing:border-box;
+}
+
+.eye-btn{
+    position:absolute;
+    right:12px;
+    top:50%;
+    transform:translateY(-50%);
+
+    border:none;
+    background:none;
+
+    cursor:pointer;
+    color:#555;
+    font-size:18px;
+}
+
+.eye-btn:hover{
+    color:#003366;
+}

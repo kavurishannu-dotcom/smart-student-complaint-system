@@ -1,0 +1,232 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../images/background.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:#fff;
+}
+
+/* Header */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 60px;
+    background:rgba(0,0,0,.35);
+    backdrop-filter:blur(10px);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#fff;
+    padding:5px;
+}
+
+.logo h2{
+    font-size:28px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/* Hero */
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.overlay h1{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.overlay p{
+    font-size:20px;
+    margin-bottom:40px;
+}
+
+/* Login Cards */
+.login-box{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(15px);
+    border-radius:20px;
+    padding:30px;
+    color:#fff;
+    text-decoration:none;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.card:hover{
+    transform:translateY(-12px);
+    background:rgba(255,255,255,.25);
+}
+
+.card img{
+    width:90px;
+    height:90px;
+    margin-bottom:15px;
+}
+
+.card i{
+    font-size:70px;
+    color:#FFD700;
+    margin-bottom:15px;
+}
+
+.card h2{
+    margin-bottom:12px;
+}
+
+.card p{
+    font-size:15px;
+}
+
+/* Features */
+.features{
+    background:#f5f9ff;
+    color:#222;
+    padding:70px;
+    text-align:center;
+}
+
+.feature-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:35px;
+}
+
+.feature{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.feature i{
+    font-size:45px;
+    color:#0b4f9c;
+    margin-bottom:15px;
+}
+
+/* Departments */
+.departments{
+    padding:70px;
+    background:#eef6ff;
+    text-align:center;
+    color:#222;
+}
+
+.dept-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:35px;
+}
+
+.dept-card{
+    width:250px;
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.dept-card:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#003366;
+    color:#fff;
+    text-align:center;
+    padding:18px;
+}
+.card-img{
+
+width:120px;
+
+height:120px;
+
+border-radius:50%;
+
+background:white;
+
+padding:10px;
+
+margin-bottom:15px;
+
+}
+
+.card button{
+
+margin-top:20px;
+
+padding:12px 30px;
+
+border:none;
+
+border-radius:30px;
+
+background:#FFD700;
+
+color:#003366;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.card button:hover{
+
+background:white;
+
+}
